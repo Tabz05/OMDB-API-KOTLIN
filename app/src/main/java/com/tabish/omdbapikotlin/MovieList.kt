@@ -1,4 +1,4 @@
-package com.example.omdbapikotlin
+package com.tabish.omdbapikotlin
 
 import android.graphics.Color
 import android.os.Bundle
@@ -7,6 +7,7 @@ import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import com.bumptech.glide.Glide
+import com.tabish.omdbapikotlin.R
 import okhttp3.*
 import org.json.JSONArray
 import org.json.JSONObject

@@ -1,4 +1,4 @@
-package com.example.omdbapikotlin
+package com.tabish.omdbapikotlin
 
 import org.junit.Test
 

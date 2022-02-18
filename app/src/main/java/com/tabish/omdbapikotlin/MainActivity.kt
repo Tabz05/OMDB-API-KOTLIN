@@ -1,4 +1,4 @@
-package com.example.omdbapikotlin
+package com.tabish.omdbapikotlin
 
 import android.content.Intent
 import android.graphics.Color
@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.widget.TextView
+import com.tabish.omdbapikotlin.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         developedBy.animate().alpha(1f).setDuration(5000)
 
-        var timer = object: CountDownTimer(6000, 1000) {
+        var timer = object: CountDownTimer(7000, 1000) {
             override fun onTick(millisUntilFinished: Long) {
 
             }
